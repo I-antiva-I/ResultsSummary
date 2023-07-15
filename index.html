@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!--JS-->
+  <script type="text/javascript" src="./assets/scripts/core.js"></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="./assets/css/styles_variables.css">
+  <link rel="stylesheet" href="./assets/css/styles_main.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  
+  <main>
+
+    <div class="result-card">
+      <div class="container for-overview">
+
+        <h1>Your Result</h1>
+        <div class="container for-result">
+          <div id="average"></div>
+          <div>of 100</div> 
+        </div>
+        <h2>Great</h2>
+        <h3>You scored higher than 65% of the people who have taken these tests.</h3>
+        
+      </div>
+
+      <div class="container for-summary">
+
+        <h2>Summary</h2>
+        <div class="container for-categories" id="categories">
+          <!--CATEGORIES WILL BE INSERTED HERE-->
+          <!--
+            <div class="container for-category CATEGORY_NAME">
+              <img class="category-image" src="CATEGORY_ICON_PATH">
+              <div class="category-label">CATEGORY_NAME</div>
+              <div class="category-score">CATEGORY_SCORE</div>
+            </div>
+          -->
+        </div>
+        <button class="continue">Continue</button>
+
+      </div>
+    </div>
+  </main>
+  
+  <script>    
+		readJSON(undefined, (data) => {parseDataIntoHTML(data)});
+  </script>
+
+
+</body>
+</html>

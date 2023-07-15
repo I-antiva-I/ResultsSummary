@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Hanken+Grotesk:500;700;800&display=swap');
+
+:root
+{
+    /* Primary */
+    --color-light-red:                  hsl(0, 100%, 67%);
+    --color-orangey-yellow:             hsl(39, 100%, 56%);
+    --color-green-teal:                 hsl(166, 100%, 37%);
+    --color-cobalt-blue:                hsl(234, 85%, 45%);
+    
+    /* Neutral */
+    --color-white:                      hsl(0, 0%, 100%);
+    --color-pale-blue:                  hsl(221, 100%, 96%);
+    --color-light-lavender:             hsl(241, 100%, 89%);
+    --color-dark-gray-blue:             hsl(224, 30%, 27%);
+
+    /* Gradients */
+    --color-light-slate-blue:           hsl(252, 100%, 67%);
+    --color-light-royal-blue:           hsl(241, 81%, 54%);
+
+    --color-violet-blue:                hsla(256, 72%, 46%, 1);
+    --color-persian-blue:               hsla(241, 72%, 46%, 0);
+
+    /* Categories */
+    --color-reaction:                   var(--color-light-red);
+    --color-memory:                     var(--color-orangey-yellow);
+    --color-verbal:                     var(--color-green-teal);
+    --color-visual:                     var(--color-cobalt-blue);
+
+    /*
+    --back-opacity:                     0.1;
+    --color-reaction-back:              hsla(0, 100%, 67%, var(--back-opacity));
+    --color-memory-back:                hsla(39, 100%, 56%, var(--back-opacity));
+    --color-verbal-back:                hsla(166, 100%, 37%, var(--back-opacity));
+    --color-visual-back:                hsla(234, 85%, 45%, var(--back-opacity));
+    */
+
+    /* hsla --> hex */
+    --color-reaction-back:              #ffeeee;
+    --color-memory-back:                #fef7e8;
+    --color-verbal-back:                #e5f8f3;
+    --color-visual-back:                #e7e9fa;
+
+    --paragraph-font-size:              18px;
+
+    --font-family-hanken:               "Hanken Grotesk";
+
+}
+
